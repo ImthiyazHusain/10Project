@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to right, black, rgb(8, 8, 184), rgb(0, 255, 0));
+}
+.content {
+  padding: 50px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  span {
+    color: hotpink;
+    border-bottom: 2px solid hotpink;
+  }
+  input {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: gray;
+    font-size: 1.2rem;
+    width: 330px;
+    height: 50px;
+    padding: 0% 2%;
+  }
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(255, 74, 104);
+  }
+}
