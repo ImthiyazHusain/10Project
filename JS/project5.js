@@ -3,7 +3,7 @@ const error = document.getElementById("error-msg");
 function check() {
   const input = document.getElementById("Email").value;
   const inputBox = document.getElementById("Email");
-  const emailRegx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const emailRegx = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/;
   let result = emailRegx.test(input);
   if (result) {
     inputBox.style.borderColor = "rgb(28, 119, 0)";
